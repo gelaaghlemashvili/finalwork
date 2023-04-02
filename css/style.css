@@ -1,0 +1,102 @@
+/* start header */
+.manecontainer {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+
+    height: 96px;
+    background-color: #D5906E85;
+    display: flex;
+    padding: 37px 243px;
+    justify-content: space-between;
+    max-width: inherit;
+    width: inherit;
+    position: absolute;
+    position: fixed;
+    transform: translateX(-50% -50%);
+}
+
+.headerul {
+    display: flex;
+    width: 30%;
+    gap: 60px;
+}
+
+.basket {
+    display: flex;
+    gap: 16px;
+}
+
+.signin {
+    font-size: 16px;
+    color: white;
+    font-family: 'Inter';
+}
+
+.bgbasket {
+    color: white;
+}
+
+.headerli {
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter';
+
+}
+.headerli:hover {
+    transition: 2s;
+    color: blue;
+    
+}
+
+.textli {
+    color: #D5906E;
+}
+
+/* header end */
+/* secion1 start */
+
+.secion1 {
+    background-image: url("../image/page1/mtavaridoqi1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 720px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 283px 0 188px 0;
+}
+
+.secion1text {
+    width: 40%;
+    color: white;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 72px;
+    font-family: 'Inter';
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter';
+
+}
+
+.secionbutton {
+    background: none;
+    border: 2px solid #D5906E;
+    border-radius: 10px;
+    width: 311px;
+    height: 56px;
+    color: white;
+    font-family: 'Inter';
+}
