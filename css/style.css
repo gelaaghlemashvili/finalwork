@@ -136,6 +136,29 @@ margin-bottom: 24px;
     text-align: center;
     font-size: 18px;
     color: #B53B1B;
+    font-family: 'Inter';
+}
+/* secion2 end */
+/* secion3 start */
+.secion3 {
+    padding: 96px 0 ;
+    width: 100%;
+    background-color: #402101;
+}
+.gallery_title {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Inter';
+}
+.gallery_secion {
+    max-width: 1190px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
 }
 
 
